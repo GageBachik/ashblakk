@@ -24,26 +24,29 @@ export default function Home() {
         <img className="image" src="profile.jpg" />
         <h3 className="description">ash.blakk</h3>
         <div className="grid">
-          <a href="https://jasonbehnke.io" className="card">
-            <h3>My Website</h3>
-          </a>
-          <a href="https://dev.to/dev01d" className="card">
-            <h3>Technical writing</h3>
-          </a>
           <a
-            href="https://vscodethemes.com/e/dev01d.devoid-theme"
+            href="https://open.spotify.com/artist/1PXbTPj93hVyUKmgXorwm9?si=x27HnirGSY60i-neTPcjPQ"
             className="card"
           >
-            <h3>VSCode Theme</h3>
+            <h3>Spotify</h3>
           </a>
-          <a href="https://github.com/dev01d" className="card">
-            <h3>Github</h3>
+          <a href="https://soundcloud.com/bachik" className="card">
+            <h3>SoundCloud</h3>
           </a>
-          <a href="https://www.twitch.tv/dev01d_" className="card">
-            <h3>Twitch</h3>
+          <a
+            href="https://www.youtube.com/channel/UC4ZmIUut_9KSS6eywe9qv9Q"
+            className="card"
+          >
+            <h3>YouTube</h3>
+          </a>
+          <a href="https://twitter.com/iloveblakk" className="card">
+            <h3>Twitter</h3>
+          </a>
+          <a href="sms://+19512940814" className="card">
+            <h3>Text Me</h3>
           </a>
           <a href="mailto:contact@jasonbehnke.io" className="card">
-            <h3>Contact</h3>
+            <h3>Email Me</h3>
           </a>
         </div>
       </main>
@@ -131,6 +134,10 @@ export default function Home() {
         .card:hover,
         .card:focus,
         .card:active {
+           {
+            /* color: #737373;
+          border-color: #737373; */
+          }
           color: #0070f3;
           border-color: #0070f3;
         }
