@@ -45,7 +45,7 @@ export default function Home() {
           <a href="sms://+19512940814" className="card">
             <h3>Text Me</h3>
           </a>
-          <a href="mailto:contact@jasonbehnke.io" className="card">
+          <a href="mailto:bubbablakkstar@gmail.com" className="card">
             <h3>Email Me</h3>
           </a>
         </div>
